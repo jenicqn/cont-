@@ -1,0 +1,27 @@
+
+-- Salão • Bebidas
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Coca cola', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Coca zero', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Guarana', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Guarana zero', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Sprite', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Fanta uva', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Fanta laranja', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Guaraviton', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Água sem gás', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Água com gás', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Guaravita', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Heineken', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Corona longneck', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Suco dell vale uva', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Suco dell vale pessego', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Suco dell vale Maracuja', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Suco dell vale Manga', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'H2o limão', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'H2o limoneto', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Xarope Monin maçã verde', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Xarope Monin morango', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Xarope Monin CHá preto', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Xarope Monin cramberry', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Xarope Monin Maracujá', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Salão • Bebidas'), 'Xarope Monin Melancia', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;

@@ -1,0 +1,2 @@
+
+DELETE FROM products WHERE category_id = (SELECT id FROM categories WHERE name = 'Salão • Bebidas') AND name IN ('Coca cola', 'Coca zero', 'Guarana', 'Guarana zero', 'Sprite', 'Fanta uva', 'Fanta laranja', 'Guaraviton', 'Água sem gás', 'Água com gás', 'Guaravita', 'Heineken', 'Corona longneck', 'Suco dell vale uva', 'Suco dell vale pessego', 'Suco dell vale Maracuja', 'Suco dell vale Manga', 'H2o limão', 'H2o limoneto', 'Xarope Monin maçã verde', 'Xarope Monin morango', 'Xarope Monin CHá preto', 'Xarope Monin cramberry', 'Xarope Monin Maracujá', 'Xarope Monin Melancia');

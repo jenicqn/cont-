@@ -1,0 +1,20 @@
+
+-- Potes (Referência) - apenas para consulta de gramaturas
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Geleia grande', '85 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Picles', '130 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Nutella', '90 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Vidro G', '760 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Vidro M', '400 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Vidro P', '260 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Vidro retangular (queijo mussarela)', '650 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Vasilha maionese M', '330 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Vasilha frango G', '500 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Pote do queijo cheddar', '400 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Pote de sorvete', '400 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Pote de sal pequeno', '33 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Pote de sal grande', '68 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Pote do ketchup sachê', '100 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Bisnaga', '50 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Caixa de sorvete', '450 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Pote do gorgonzola (igual o que joga o lixo)', '245 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Potes (Referência)'), 'Vasilha preta aberta', '270 g', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;

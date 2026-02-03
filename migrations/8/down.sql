@@ -1,0 +1,2 @@
+
+DELETE FROM products WHERE category_id = (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha') AND name IN ('Oléo 900ml', 'Leite', 'Café', 'Açúcar', 'Cebola Branca', 'Cebola roxa', 'Tomate', 'Cheiro Verde', 'Alho', 'Limão', 'Alface', 'Cobertura chocolate', 'Ovomaltine', 'Leite Ninho', 'Nesquik', 'Nutella', 'Chantilly', 'Base de milkshake', 'Petit gateau', 'Bacon fatiado (pronto)', 'Parmesão', 'Creme p/ chantily', 'Doce de leite', 'Brownie', 'Mantega', 'Cookie baunilha', 'Cookie chocolate');

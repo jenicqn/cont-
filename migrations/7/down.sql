@@ -1,0 +1,2 @@
+
+DELETE FROM products WHERE category_id = (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha') AND name IN ('Pão', 'Pão Australiano', 'Bag catchup heinz', 'Bag mostarda', 'Catchup sachê heinz', 'Mostarda sache', 'Maionese verde', 'Maionese de alho', 'Cebola Caramelizada', 'Cebola Crispy', 'Barbecue', 'Geleia de pimenta', 'Picles', 'Costela desfiada (pronta)', 'Molho cheddar', 'Ovo', 'Sal', 'Farinha panko', 'Farinha de trigo', 'Açucar mascavo', 'Amido de Milho', 'Pimenta calabresa', 'Páprica picante', 'Pimenta do reino', 'Peper lemon');

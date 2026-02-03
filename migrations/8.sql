@@ -1,0 +1,29 @@
+
+-- Auxiliar de Cozinha (parte 2)
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Oléo 900ml', 'lt', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Leite', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Café', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Açúcar', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Cebola Branca', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Cebola roxa', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Tomate', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Cheiro Verde', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Alho', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Limão', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Alface', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Cobertura chocolate', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Ovomaltine', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Leite Ninho', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Nesquik', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Nutella', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Chantilly', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Base de milkshake', 'lt', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Petit gateau', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Bacon fatiado (pronto)', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Parmesão', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Creme p/ chantily', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Doce de leite', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Brownie', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Mantega', 'kg', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Cookie baunilha', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
+INSERT INTO products (category_id, name, unit, minimum_stock, created_at, updated_at) SELECT (SELECT id FROM categories WHERE name = 'Auxiliar de Cozinha'), 'Cookie chocolate', 'un', 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP;
